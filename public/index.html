@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger Shopy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+
+  <style>
+        
+        body{
+            background-color: rgb(245, 234, 211);
+        }
+    </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand fw-bold fs-4" href="./index.html">🍔 Burger Shopy</a>
+    <a class="nav-item nav-link active" href="./index.html">Home</a>
+      <a class="nav-item nav-link" href="./Contact.html">Contact</a>
+      <a class="nav-item nav-link" href="./About.html">About US</a>  
+    <button id="viewCartBtn" class="btn btn-success">Cart</button>
+
+  </nav>
+
+  <main class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100">
+          <img class="card-img-top" src="./Assests/burger1.jpg" alt="Classic Burger">
+          <div class="card-body">
+            <h5 class="card-title">Classic Burger</h5>
+            <p class="card-text">Juicy grilled beef patty with cheese,and our signature sauce.</p>
+            <h5>Price : ₹ 150</h5>
+            <a href="#" class="btn btn-warning w-100">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100">
+          <img class="card-img-top" src="./Assests/burger2.jpg" alt="Spicy Burger">
+          <div class="card-body">
+            <h5 class="card-title">Spicy Burger</h5>
+            <p class="card-text">A fiery twist on the classic with jalapeños and spicy mayo.</p>
+            <h5>Price : ₹ 170</h5>
+            <a href="#" class="btn btn-warning w-100">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100">
+          <img class="card-img-top" src="./Assests/burger3.jpg" alt="Veggie Burger">
+          <div class="card-body">
+            <h5 class="card-title">Veggie Burger</h5>
+            <p class="card-text">Loaded with grilled veggies, avocado, and fresh greens.</p>
+            <h5>Price : ₹ 130</h5>
+            <a href="#" class="btn btn-warning w-100">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card h-100">
+          <img class="card-img-top" src="./Assests/burger4.jpg" alt="Cheese Deluxe">
+          <div class="card-body">
+            <h5 class="card-title">Cheese Deluxe</h5>
+            <p class="card-text">Double cheese layers with a perfectly toasted bun.</p>
+            <h5>Price : ₹ 180</h5>
+            <a href="#" class="btn btn-warning w-100">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./menu.js"></script>
+</body>
+
+</html>
